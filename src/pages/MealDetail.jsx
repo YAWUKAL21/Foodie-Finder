@@ -50,7 +50,7 @@ const MealDetail = () => {
 
   return (
     <main className="max-w-4xl mx-auto p-6">
-      <Link to="/">
+      <Link to="/Home">
         <Button variant="outline" className="mb-6">← Back to Search</Button>
       </Link>
 
@@ -63,7 +63,7 @@ const MealDetail = () => {
         <CardContent>
           <h1 className="text-3xl font-bold mb-2">{meal.strMeal}</h1>
           <p className="mb-1"><strong>Category:</strong> {meal.strCategory}</p>
-          <p className="mb-4"><strong>Area:</strong> {meal.strArea}</p>
+          <p className="mb-4"><strong>Country:</strong> {meal.strArea}</p>
 
           <section className="mb-6">
             <h2 className="text-2xl font-semibold mb-2">Ingredients</h2>

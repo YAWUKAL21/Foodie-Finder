@@ -21,7 +21,7 @@ const CategoryFilter = ({ onSelectCategory }) => {
   const handleCategoryClick = async (category) => {
     setActiveCategory(category);
     if (category === "") {
-      // empty string means reset (all)
+      
       onSelectCategory(null);
       return;
     }

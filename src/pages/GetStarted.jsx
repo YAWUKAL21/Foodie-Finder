@@ -1,4 +1,4 @@
-// src/pages/GetStarted.jsx
+
 import { useNavigate } from "react-router-dom";
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
@@ -10,9 +10,7 @@ const GetStarted = () => {
   return (
     <div
       className="min-h-screen bg-cover bg-center relative flex items-center justify-center"
-      style={{
-        backgroundImage: "url('/food.jpg')", 
-      }}
+      
     >
       {/* Overlay */}
       <div className="absolute inset-0 bg-black bg-opacity-50" />
